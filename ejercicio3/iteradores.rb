@@ -49,6 +49,6 @@ numeros = [69, 6043, 2407, 6825, 3078, 4605, 8158, 1597, 4341, 6717, 7476, 2868,
 # puts numeros.length
 # puts resultado.length
 
-resultado = numeros.select {|n| 
-    n.to_s.start_with? "7" or n.to_s.end_with? "7"}
-puts resultado
+# resultado = numeros.select {|n| 
+#     n.to_s.start_with? "7" or n.to_s.end_with? "7"}
+# puts resultado
