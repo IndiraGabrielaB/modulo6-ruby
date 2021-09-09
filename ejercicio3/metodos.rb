@@ -58,3 +58,54 @@
 
 # 2 Definir un método que pueda generar un arreglo de n posiciones según lo defina el usuario con números al azar entre el 0..100
 # 3 Definir un método que pueda generar un arreglo de n posiciones según lo defina el usuario con número entre min y z que defina el usuario.
+
+# Bancos 
+# 30 120
+
+# => 89.5
+
+# 42 120 
+
+# => 120
+
+# 300 120
+
+# => 120
+
+# def multiplos5(numeros_p)
+#     resultado = numeros_p.select { |n|
+#         n %5 == 0
+#     }
+#     return resultado
+# end
+
+# def saldo(numeros_p)
+#     if numeros_p <= 120
+#         resultado = 120 - numeros_p  - 0,5
+#     else
+#         puts "Sin saldo!!"
+#     end
+#     return resultado
+    
+# end   
+
+# # Menú
+# din = 0
+# op = 0 
+#  print "Elija su opción del menú"
+#  puts "Opción 1: Banco ; Opción 2: Suma interior ; Opción 3"
+#  op = gets.chomp.to_i
+#  while op != 4
+#     if op == 1
+#     puts ¿Cuánto dinero desea retirar?
+#     din = gets.chomp.to_i
+# #print multiplos5(din)
+#         if multiplos5(din) == true
+#             puts saldo(din)
+#         end
+#     end
+# print "Elija su opción del menú"
+# puts "Opción 1: Banco ; Opción 2: Suma interior ; Opción 3"
+# op = gets.chomp.
+# end
+# end

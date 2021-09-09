@@ -1,0 +1,4 @@
+require_relative 'modulo_numeros'
+include ModuloNumeros
+
+mostras_menu
