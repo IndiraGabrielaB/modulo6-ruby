@@ -17,5 +17,4 @@ module ModuloUsuarios
         end
         return usuarios
     end
-
 end

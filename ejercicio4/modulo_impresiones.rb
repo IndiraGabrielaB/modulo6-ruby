@@ -18,5 +18,7 @@ module ModuloImpresiones
         arreglo_usuarios.each { |usuario|
             puts "#{usuario[:nombre].ljust(align_nombre)  } | #{usuario[:email].ljust(align_correo)} | #{usuario[:password]}"
         }
+
     end
+    
 end
