@@ -3,23 +3,27 @@ require_relative 'mascota'
 class Dueño
     # atributos
     # nombre - mascota
-attr_accessor :nombre
-attr_accessor :mascota
+    attr_accessor :nombre
+    attr_accessor :animalito #nil
 
-    def mostrar_datos_mascota
-        puts "#{@mascota.nombre} - #{@mascota.raza}"
+    def initialize(nombre = "", mascota = nil)
+        @nombre  = nombre  # String
+        @mascota = animalito # Nil        
     end
 
-    if @animalito != nil 
-        puts "#{mascota,nombre} - #{@mascota.raza}" 
-    else
-        puts "No has adoptado ninguna mascota ❌"
+    def mostrar_datos_mascota
+        if @animalito != nil # si es nil o false entonces es false
+        puts "#{@animalito.nombre} - #{@animalito.raza}"
+        else
+            puts "No has adoptado a ninguna mascota🚫"                  
+        end
     end
 
     def to_s
         "hola soy el dueño #{@nombre}"
     end
 end
+
 
 # Lógica para asignar una masctoa a un dueño
 
@@ -31,7 +35,7 @@ mascota1.esta_vacunado = true
 
 dueño = Dueño.new
 dueño.nombre = "Humberto"
-dueño.mascota = mascota1  # Relacionados los objetos
+dueño.animalito= mascota1  # Relacionados los objetos
 dueño.mostrar_datos_mascota
 
 mascota1.estoy_vacunado?
